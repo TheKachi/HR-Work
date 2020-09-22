@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Bootstrap-4_Res-Website-master",
+			"path": "..\\Kachi\\Bootstrap-4_Res-Website-master"
+		},
+		{
+			"name": "HR WORK",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HR WORK"
+	}
+}
