@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+:root {
+  --red: rgb(239,6,51);
+  --blue: rgb(0,87,218);
+  --green: rgb(0,186,52);
+  --grey: rgba(86,86,86, 0.5);
+  --transparent-red: rgba(239,6,51,0.7);
+  --transparent-black: rgba(33,34,35,0.7);
+  --transparent-grey: rgb(136,136,136);
+  --overlay: rgba(0,33,71,0.1);
+
+  /* --overlay: linear-gradient(to right, #bdc3c7, #2c3e50);  */
+
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.section-1 {
+    background: url("assets/Mask\ Group.png");
+   
+    background-size: cover;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+.nav {
+  background:transparent;
+  padding: 0;
+}
+ .heading {
+  
+    max-width: 700px; 
+    padding: 28vmin 0;   
+}
+
+
+  .heading h1 {
+  font-weight: 700;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+   
+
+   
+  }
+
+.heading p {
+  padding: 0 5vmin;
+    font-weight: 300;
+    font-size: 14px;
+} 
+
+h2 {
+  color: var(--red);
+  font-weight: 700;
+}
+
+p {
+  font-weight: 300;
+}
+
+h5 {
+  font-weight: 400;
+}
+.money{color:var(--red); font-weight: 700;}
+  
+  .navbar-brand {
+    padding-left: 30px;
+  }
+  
+  .nav-item {
+    padding: 0em 1em;
+  }
+  .nav-link {
+    font-size: 1.1em;
+  }
+ .why-hr-work {
+    background: var(--overlay);
+    background-size: cover;
+  }
+
+  .who-we-are .card {
+    background: rgba(249,155,173,0.5);
+    color: rgb(239,6,51);
+  }
+
+  .img-container{
+    position: relative;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+  }
+
+  .blue {
+    background-color: var(--blue);
+    outline: none;
+  }
+
+.our-packages .card .btn  {
+  /* border: 1px solid  rgb(86,86,86); */
+  /* font-weight: 700; */
+  color: var(--grey);
+
+}
+
+.our-packages .card h5 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--grey);
+}
+
+.our-packages .card p{
+  color: var(--transparent-grey);
+}
+.btn {
+  font-size: 16px;
+}
+.red-btn  {
+  background-color: var(--red);
+}
+
+.green-btn {
+  background-color: var(--green);
+}
+
+.blue-btn {
+  background-color: var(--blue);
+}
+
+.white-btn {
+  margin-top: -35px;
+  background-color: #fff;
+  text-align: right;
+}
+
+.bg-red {
+  background: var(--transparent-red);
+}
+
+.bg-black {
+  background: var(--transparent-black);
+}
+
+.latest-news .card {
+  padding: 1rem 0.5rem;
+}
+.latest-news h6{
+  color: var(--red);
+}
+.latest-news .card-text{
+  font-size: 12px;
+  color: var(--grey);
+}
+
+.footer h6 {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-1 {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .icons {
+    display: none;
+  }
+}
